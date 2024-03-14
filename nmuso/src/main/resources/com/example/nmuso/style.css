@@ -1,0 +1,44 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.thumbnail-grid {
+    -fx-padding: 20px;
+}
+
+.thumbnail {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+.thumbnail:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 12, 0, 0, 0);
+}
+
+.full-size-image {
+    -fx-fit-height: 500;
+    -fx-fit-width: 500;
+}
+
+.button-bar {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.button-bar > .button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button-bar > .button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button-bar > .button:pressed {
+    -fx-background-color: #367c39;
+}
